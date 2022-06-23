@@ -1,10 +1,16 @@
-# CONFIGURATIONS
+# Personal Configuration Files
+This repository contains the personal configuration files for my PC 
+environments.
 
 ## 1. Vim
-TODO
+Basically, some quality of life, tabs as spaces and using some plugins with 
+[vim-plug](https://github.com/junegunn/vim-plug).
+
+TODO: Future check and move to use neovim.
 
 ## 2. tmux
-TODO
+Configuration for lower status bar, change colorings to match Gruvbox color, 
+and map the hotkey to Ctrl+A.
 
 ## 3. Extra Fixes
 ### 3.1 Slow Mouse Cursor on Ubuntu
@@ -23,3 +29,7 @@ echo "disable" > /sys/firmware/acpi/interrupts/gpeXX (XX is the number of your g
 ```
 
 TODO: Then add a crontab entry to fix it at reboot time. 
+
+## 4. Win
+Maybe one does take bad decisions in life which leads him to use windows. 
+Just contains key mappings (CapsLock to Ctrl).
